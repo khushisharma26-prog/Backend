@@ -15,5 +15,14 @@
   "dependencies": {
     "dotenv": "^17.4.2",
     "express": "^5.2.1"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/khushisharma26-prog/Backend.git"
+  },
+  "bugs": {
+    "url": "https://github.com/khushisharma26-prog/Backend/issues"
+  },
+  "homepage": "https://github.com/khushisharma26-prog/Backend#readme"
 }
