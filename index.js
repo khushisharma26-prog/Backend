@@ -22,7 +22,14 @@ app.get('/login', (req, res) => {
 app.get('/youtube', (req, res) => {
   res.send('<h2>Youtube link is https://www.youtube.com/</h2>');
 });
+app.get("/api/jokes", (req, res) => {
+  const jokes = [
+    "Why don't scientists trust atoms? Because they make up everything!",
+    "Why did the scarecrow win an award? Because he was outstanding in his field!",
+  ];
 
+  res.json(jokes);
+});
 app.listen(PORT, () => {
   console.log(`Example app listening on port ${PORT}`);
 });

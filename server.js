@@ -5,11 +5,8 @@ dotenv.config();
 
 const app = express();
 const PORT = process.env.PORT || 3000;
-app.get("/jokes", (req, res) => {
-  const jokes = [
-    "Why don't scientists trust atoms? Because they make up everything!",
-    "Why did the scarecrow win an award? Because he was outstanding in his field!",
-  ];
+app.get("/", (req, res) => {
+  res.send("Backend is working");
   res.json(jokes
 
   );
